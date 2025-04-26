@@ -1,0 +1,64 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  padding: 20px;
+}
+
+.home-header h1 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: #367139;
+  margin-bottom: 10px;
+}
+
+.home-header p {
+  font-size: 1.2rem;
+  color: #616a76;
+  letter-spacing: 2px;
+  opacity: 0.9;
+}
+
+/* Buttons */
+.home-buttons {
+  margin-top: 30px;
+  display: flex;
+  gap: 15px;
+}
+
+.home-buttons button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.login-btns,
+.signup-btn {
+  font-weight: bold;
+  padding: 0.5rem 2rem;
+  border-radius: 9999px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.login-btns {
+  background-color: #3cab7d;
+  color: white;
+  border-radius: 50px;
+}
+
+.signup-btn {
+  background-color: transparent;
+  color: #3cab7d;
+  border: 2px solid #3cab7d;
+}
+
+.login-btns:hover,
+.signup-btn:hover {
+  transform: scale(1.1);
+}
