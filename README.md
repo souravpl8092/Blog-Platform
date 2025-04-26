@@ -42,6 +42,14 @@ A full-featured blog platform where users can create, read, update, delete (CRUD
 
 ---
 
+## 🚀 Deployment
+
+- **Frontend:** [Blog-Platform App](https://blog-platform-eight-rho.vercel.app/)
+- **Backend:** [Blog-Platform Server](https://blog-platform-server-liart.vercel.app/)
+- **Database:** MongoDB
+
+---
+
 ## 📂 Folder Structure
 
 ```
